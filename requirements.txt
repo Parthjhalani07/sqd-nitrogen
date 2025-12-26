@@ -1,9 +1,0 @@
-numpy>=2.4
-matplotlib
-qiskit
-qiskit-ibm-runtime
-qiskit-addon-sqd
-pyscf
-rustworkx
-ffsim
-jupyter
