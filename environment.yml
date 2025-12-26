@@ -10,8 +10,8 @@ dependencies:
   - qiskit
   - qiskit-ibm-runtime
   - rustworkx
-  - ffsim
   - pip
   - pip:
       - qiskit-addon-sqd
+      - ffsim
   - jupyterlab
