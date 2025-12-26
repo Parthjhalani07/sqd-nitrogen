@@ -2,14 +2,16 @@ name: sqd-nitrogen
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
-  - numpy<2.0
+  - python=3.10
+  - numpy=1.26.*
   - scipy
   - matplotlib
   - pyscf
   - qiskit
   - qiskit-ibm-runtime
-  - qiskit-addon-sqd
   - rustworkx
   - ffsim
+  - pip
+  - pip:
+      - qiskit-addon-sqd
   - jupyterlab
